@@ -36,7 +36,7 @@ obj-$(CONFIG_OPLUS_FEATURE_QCOM_WATCHDOG)     += qcom_watchdog/
 #endif /* OPLUS_FEATURE_QCOM_WATCHDOG */
 
 #ifdef OPLUS_FEATURE_RT_INFO
-obj-$(CONFIG_OPLUS_FEATURE_RT_INFO) += rt_info/
+#obj-$(CONFIG_OPLUS_FEATURE_RT_INFO) += rt_info/
 #endif
 
 #ifdef OPLUS_FEATURE_ACM
